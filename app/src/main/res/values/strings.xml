@@ -4,5 +4,7 @@
     <!--string name="ButtonText">I\'m a button</string-->
     <string name="StringText">Here are my widgets</string>
     <string name="ButtonText">Button</string>
-    <string name="Checkbox">Checkbox</string>
+    <string name="Checkbox">Check this out</string>
+    <string name="SwitchText">Switch on/off</string>
+    <string name="editText">Type your answer here</string>
 </resources>

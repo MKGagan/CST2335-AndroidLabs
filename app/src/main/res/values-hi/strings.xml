@@ -5,5 +5,7 @@
     <!--string name="ButtonText">मैं एक बटन हूँ</string-->
     <string name="StringText">यहाँ मेरे विजेट हैं</string>
     <string name="ButtonText">बटन</string>
-    <string name="Checkbox">चेकबॉक्स</string>
+    <string name="Checkbox">इसकी जांच करें</string>
+    <string name="SwitchText">चालू करना / बंद करना</string>
+    <string name="editText">अपना उत्तर यहां लिखें</string>
 </resources>
