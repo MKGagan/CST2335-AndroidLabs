@@ -37,37 +37,39 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ButtonText"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="@string/ButtonText" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:contentDescription="@string/StringText"
             app:srcCompat="@drawable/flag" />
     </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="25sp"
-        android:text="@string/Checkbox" />
 
-    <Switch
-        android:id="@+id/switch1"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="25sp"
-        android:text="@string/SwitchText" />
-</LinearLayout>
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Checkbox"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/SwitchText"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,14 +77,15 @@
         android:layout_gravity="fill"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:textSize="25sp"
             android:inputType="textPersonName"
-            android:text="@string/editText" />
+            android:text="@string/editText"
+            android:textSize="25sp" />
     </LinearLayout>
 
 
