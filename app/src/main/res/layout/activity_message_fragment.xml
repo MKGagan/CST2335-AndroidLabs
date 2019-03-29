@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/colorPrimary"
+    android:id="@+id/fragmentLocation"
+    >
 
     <TextView
         android:id="@+id/message_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID" />
+        android:text="ID"
+        android:layout_margin="50dp"/>
 
     <TextView
-        android:id="@id/messageText"
+        android:id="@+id/messageText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MessageText" />
+        android:layout_below="@id/message_id"
+        android:text="MessageText"
+        android:layout_margin="50dp"/>
+
+    <TextView
+        android:id="@+id/messageType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageText"
+        android:text="MessageType"
+        android:layout_margin="50dp"/>
+
+    <TextView
+        android:id="@+id/messagePosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageType"
+        android:text="MessagePosition"
+        android:layout_margin="50dp"/>
 
     <Button
         android:id="@+id/deleteMessage"
@@ -22,4 +44,4 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Delete Message" />
-</LinearLayout>
+</RelativeLayout>

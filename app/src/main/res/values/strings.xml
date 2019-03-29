@@ -7,4 +7,26 @@
     <string name="Checkbox">Check this out</string>
     <string name="SwitchText">Switch on/off</string>
     <string name="editText">Type your answer here</string>
+    <string name="textView1">Enter your Email Address:</string>
+    <string name="textView2">Type your password:</string>
+    <string name="editView1">Type email here</string>
+    <string name="button1">LOGIN</string>
+    <string name="pfText1">Your Profile</string>
+    <string name="pfText2">Your name:</string>
+    <string name="pfText3">Your email:</string>
+    <string name="pfText4">Your picture:</string>
+    <string name="pfText5">Click the button above to take a picture</string>
+    <string name="pfEdit1">Enter your name</string>
+    <string name="pfEdit2">Enter your email</string>
+    <string name="chatButtonText">Go to Chat</string>
+    <string name="lstViewBtnTextSend">SEND</string>
+    <string name="lstTextViewHint">Type Here</string>
+    <string name="lstViewBtnTextReceive">RECEIVE</string>
+    <string name="toolButton">Go to toolbar page</string>
+    <string name="weatherForecastButton">Go to Weather Forecast</string>
+    <string name="textTemperature">Current Temperature</string>
+    <string name="textMinTemperature">Min Temperature</string>
+    <string name="textMaxTemperature">Max Temperature</string>
+    <string name="textUVRating">UV rating</string>
+    <string name="textWindSpeed">WindSpeed</string>
 </resources>
